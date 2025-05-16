@@ -17,8 +17,9 @@ Image-Gallery_Eko-Benzins-Map/
 
 ## Resursi
 
-- Skolotajs T. Grants ļāva priekš kartes pielietot 6. Praktisko darbu.
+- Skolotājs T. Grants ļāva priekš kartes pielietot 6. Praktisko darbu.
 - Github repozitorijs 6. praktiskajam darbam https://github.com/xYFreezyYx/Eko-Benzins
+- Github repozitorijs 7. praktiskajam darbam https://github.com/xYFreezyYx/ImageGallery_Eko-Benzins-Map
 
 ## Autors
 
