@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image gallery and Map</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
+    <nav class="navbar">
+        <div class="nav-item active" id="galleryTab">Image Gallery</div>
+        <div class="nav-item" id="mapTab">Eko-Benzīns Map</div>
+    </nav>
+    <main>
+        <section id="gallerySection">
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1641654739590-ad6687816e9f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ferrari F40"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1711196732969-1163620f6ce4?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lamborghini Countach"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1698205244154-28d627e3dcd4?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ford Mustang 1969"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1621317675068-c29ebcc2dd6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Porsche 911"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1693461107969-1bc35c6a0325?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Toyota Supra Mk4"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1550913424-9fc8df9a7be8?q=80&w=2105&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nissan Skyline GT-R R34"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1574272030671-2b0d41f6e231?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Subaru Impreza 555"></div>
+                <div class="gallery-item"><img src="https://images.unsplash.com/photo-1611023939376-e1e16d1c15bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mitsubishi evo"></div>
+            </div>
+        </section>
+        <section id="mapSection" style="display:none;">
+            <iframe src="https://xyfreezyyx.github.io/Eko-Benzins/" frameborder="0" class="eko-map-iframe" allowfullscreen></iframe>
+        </section>
+    </main>
     <script src="main.js"></script>
 </body>
-
 </html>
