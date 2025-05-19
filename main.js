@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function animateSection(section, direction) {
         section.classList.remove('tab-slide-left', 'tab-slide-right');
-        // Force reflow to restart animation
         void section.offsetWidth;
         if (direction === 'left') {
             section.classList.add('tab-slide-left');
@@ -28,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
         galleryTab.classList.remove('active');
         gallerySection.style.display = 'none';
         mapSection.style.display = 'flex';
-        // Remove iframe visibility hack, animate as normal
         animateSection(mapSection, 'right');
     });
 });
