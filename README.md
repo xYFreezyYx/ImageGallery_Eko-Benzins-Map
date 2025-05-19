@@ -1,6 +1,6 @@
 # 7. Praktiskais darbs
 
-Mājaslapa ir attēlu galerija un maršrutu karte.
+Mājaslapā ir attēlu galerija un maršrutu karte.
 
 ## Pārskats
 
